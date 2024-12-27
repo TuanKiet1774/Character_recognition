@@ -9,7 +9,7 @@ Nhận diện chữ viết tiếng anh, kiểm tra lỗi chính tả và đề x
 - Cài đặt Java Development Kit JDK 23: https://www.oracle.com/java/technologies/downloads/#jdk23-windows
 
 ![image](https://github.com/user-attachments/assets/34fc9e37-cf7a-4966-834a-eb4c77583b8e)
-- Sau khi cài xong JDK thì 
+- Cài đặt môi trường cho JDK 
   + Bật search tìm kiếm: Edit the system Environment Variables
 
   ![image](https://github.com/user-attachments/assets/432ed728-f61f-4cd3-8816-921dfe5cdc05)
