@@ -31,6 +31,7 @@ Mở `Command Prompt` (Win + R → `cmd`) và chạy lệnh sau: pip install pyt
 ### 2. Cài Tesseract: 
 
 Truy cập trang tải: 👉 https://github.com/UB-Mannheim/tesseract/wiki
+
 Sau khi cài đặt, thêm đoạn sau vào mã Python để định nghĩa đường dẫn: pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 ![image](https://github.com/user-attachments/assets/b95a37aa-0f6d-44ab-b2b7-2e10e10b127a)
