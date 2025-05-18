@@ -1,15 +1,37 @@
-# Character_recognition
-Nhận diện chữ viết tiếng anh, kiểm tra lỗi chính tả và đề xuất sữa lỗi.
-- Thư viện Pytesseract: Thư viện Python giúp người dùng sử dụng công cụ Tesseract OCR để nhận diện văn bản từ hình ảnh.
-- Thư viện Pillow: Thư viện xử lý hình ảnh mạnh mẽ trong Python, cho phép chỉnh sửa, phân tích, và lưu trữ ảnh.
-- Thư viện OpenCV: Thư viện xử lý ảnh và video mạnh mẽ, cung cấp các công cụ phân tích và thao tác trực quan trên dữ liệu đa phương tiện.
+# 🔤 Character_Recognition
 
-  - Cài đặt thư viện pytesseract, pillow và OpenCV: Win + R -> cmd -> pip install pytesseract pillow opencv-python
-- Cài Tesseract: https://github.com/UB-Mannheim/tesseract/wiki
-  - Đường dẫn sử dụng: pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+**Hệ thống nhận diện chữ viết tiếng Anh từ hình ảnh, kiểm tra lỗi chính tả và đề xuất sửa lỗi.**
+
+---
+
+## 🧠 Tính năng chính
+- 📷 Nhận diện văn bản tiếng Anh từ hình ảnh bằng công nghệ OCR.
+- 🪄 Phân tích và kiểm tra lỗi chính tả từ đoạn văn bản nhận diện được.
+- ✍️ Tự động gợi ý từ đúng thay cho từ sai chính tả.
+
+---
+
+## 🧰 Công nghệ & Thư viện sử dụng
+
+| Thư viện             | Mô tả                                                                                     |
+|----------------------|--------------------------------------------------------------------------------------------|
+| `pytesseract`        | Giao diện Python cho Tesseract OCR - nhận diện văn bản từ hình ảnh.                      |
+| `Pillow`             | Xử lý hình ảnh trong Python (mở, chỉnh sửa, lưu trữ, v.v.).                              |
+| `OpenCV`             | Xử lý ảnh nâng cao, giúp tiền xử lý hình ảnh trước khi OCR.                              |
+| `pyspellchecker`     | Kiểm tra và gợi ý sửa lỗi chính tả đơn giản, nhanh chóng.                                |
+
+---
+
+## ⚙️ Hướng dẫn cài đặt
+
+### 1. Cài đặt các thư viện Python:
+
+Mở `Command Prompt` (Win + R → `cmd`) và chạy lệnh sau: pip install pytesseract pillow opencv-python pyspellchecker
+
+### 2. Cài Tesseract: 
+
+Truy cập trang tải: 👉 https://github.com/UB-Mannheim/tesseract/wiki
+Sau khi cài đặt, thêm đoạn sau vào mã Python để định nghĩa đường dẫn: pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 ![image](https://github.com/user-attachments/assets/b95a37aa-0f6d-44ab-b2b7-2e10e10b127a)
 
-- Thư viện Pyspellchecker: Thư viện Python được thiết kế để kiểm tra và sửa lỗi chính tả đơn giản, nhanh chóng mà không cần các công cụ hoặc cơ sở dữ liệu phức tạp.
-
-  - Cài đặt thư viện pyspellchecker: Win + R -> cmd -> pip install pyspellchecker
