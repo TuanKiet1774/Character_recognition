@@ -1,6 +1,6 @@
-# 🔤 Character_Recognition
+# 🔤 Character Recognition
 
-**Hệ thống nhận diện chữ viết tiếng Anh từ hình ảnh, kiểm tra lỗi chính tả và đề xuất sửa lỗi.**
+**Chương trình Python nhận diện chữ viết tiếng Anh từ hình ảnh, kiểm tra lỗi chính tả và đề xuất sửa lỗi.**
 
 ---
 
